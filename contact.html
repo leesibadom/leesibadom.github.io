@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="diamond.png" type="png" sizes="16x16">
+</head>
+
+
+<body class="Background">
+     <div class = "header">
+          <div class="Salmon">
+          <h1 class="SalmonText"><i><b>ME, MYSELF AND STYLE</b></i></h1>
+     </div>
+
+     <div class="Black">
+           <div id="navbar">
+           <a href="index.html">Home</a>
+            <a href="shoes.html">Shoes</a>
+            <a href="jackets.html">Jackets</a>
+            <a href="clothes.html">Clothes</a>
+          <a href="AboutUs.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+          <input type="text" placeholder="Search" class="Search">
+          </div>    
+     </div>
+     </div>
+
+<div class="container2">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a peek at our new collection and leave a message for us:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/IMG-0937.jpg" style="width:100%">
+<body>
+​
+
+
+
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type2="text2" id="fname" name="firstname" placeholder="Your first name.."><br><br>
+        
+        <label for="lname">Last Name</label>
+        <input type2="text2" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+        
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="nigeria">Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="kenya">Kenya</option>
+        </select>
+        
+        <label for="subject">Review</label>
+        <textarea id="subject" name="subject" placeholder="Leave a Review.." style="height:170px"></textarea>
+        <button type="submit" onclick="myFunction()" class="Menu">Submit</button>
+          </form>
+          <script>
+        function myFunction() {
+          alert("Thank You For Submitting your form");
+        }
+      </script>
+          </form>
+    </div>
+  </div>
+</div>
+​
+
+
+     <div class="SalmonSmall"></div>
+
+     <div class="BiggerBox">
+          <p class="InputText">BE THE FIRST TO KNOW ABOUT THE NEW ARRIVALS</p>
+          <form>
+               <input type="text" name="email" placeholder="*E-mail">
+               <button class="button1" onclick="myFunction()">Subscribe</button>
+          </form>
+          <script>
+				function myFunction() {
+  				alert("Thank You For Subscribing");
+				}
+			</script>
+          </form>
+          <div class="InputMini">
+               <a class="InputMiniText" href="index.html">Home</a>
+               <a class="InputMiniText" href="shoes.html">Shoes</a>
+               <a class="InputMiniText" href="jackets.html">Jackets</a>
+               <a class="InputMiniText" href="clothes.html">Clothes</a>
+               <a class="InputMiniText" href="AboutUs.html">About Us</a>
+          </div> 
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+          <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a> 
+          <a href="https://www.google.com/" class="fa fa-google"></a>
+     </div>
+
+     <div class="SalmonFooter"> 
+          <p class="CopyrightText"><b><i>© 2020 by Me, Myself and Style. Proudly created with</i></b> <a href="https://www.w3schools.com/"><b><i>W3schools.com</i></b></a></p>
+     </div>
+	
+	 <button class="open-button" onclick="openForm()">Chat With Us</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,433 @@
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.Search{
+  float: right;
+  margin-top: 15px;
+}
+
+.Black input[type=text]{
+}
+
+.header{
+  width: 100%;
+  float: left;
+  position: fixed;
+}
+
+.Salmon{
+  background-color: #FB998E;
+  background-image: url(diamond.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+
+.SalmonText{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Black{
+  background-color: #000000;
+  width: 100%;
+  height: 50px;
+  float: left;
+  /*position: fixed; */
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: black;
+  color: #FB998E;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+#slider{
+      overflow: hidden;
+    }
+
+    #slider figure{
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      animation: 20s slider infinite;
+      z-index: -1;
+      margin-top: 100px;
+    }
+
+    #slider figure img{
+      width: 20%;
+      float: left;
+
+    }
+
+    @keyframes slider {
+      0%{
+        left: 0;
+      }
+      20%{
+        left: 0;
+      }
+      25%{
+        left: -100%;
+      }
+      45%{
+        left: -100%;
+      }
+      50%{
+        left: -200%;
+      }
+      70%{
+        left: -200%;
+      }
+      75%{
+        left: -300%;
+      }
+      95%{
+        left: -300%;
+      }
+      100%{
+        left: -400%;
+      }
+  }
+
+
+
+.slideshow-container {
+  position: relative;
+  background: #191919;
+  z-index: -1;
+  margin-top: 20px;
+}
+
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: #FB998E;
+  color: white;
+}
+
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.textSmall{
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  float: left;
+  margin-top: 0px;
+}
+
+.PictureBox{
+  background-image: url(images/IMG-0923.jpg);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+
+.TEXTBOO{
+  background-color: white;
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+.TEXT{
+  color: black;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.TEXT2{
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.here{
+  background-color: #FB998E;
+  width: 100px;
+  height: 30px;
+  margin-left: 300px;
+  margin-top: 100px;
+
+}
+
+.SalmonSmall{
+  background-color: #FB998E;
+  width: 100%;
+  height: 5px;
+  float: left;
+  margin-top: 100px;
+}
+
+.BiggerBox{
+  background-color: #191919;
+  width: 100%;
+  height: 380px;
+  float: left;
+  margin-top: 0px;
+}
+
+.SalmonFooter{
+  background-color: #FB998E;
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+form input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 400px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid pink;
+  background-color: #191919;
+}
+
+.InputText{
+  color: white;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.InputMini{
+  background-color: #191919;
+  width: 1000px;
+  height: 50px;
+  float: left;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+.InputMiniText{
+  color: white;
+  font-size: 15px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.InputMiniText:hover{
+  color: #FB998E;
+}
+
+.button1 {
+  background-color: #FB998E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1:hover{opacity: 1}
+
+
+
+.CopyrightText{
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-top: 50px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #191919;
+  color: white;
+  margin-left: 350px;
+}
+
+.fa-twitter{
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-youtube {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-instagram {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-pinterest {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-snapchat-ghost {
+  background: #191919;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 40px;
+}
+
+.fa-google {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.open-button {
+  background-color: #FB998E;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  /*opacity: 0.8;*/
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+ padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

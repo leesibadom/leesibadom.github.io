@@ -1,0 +1,338 @@
+.header{
+	width: 100%;
+	float: left;
+	position: fixed;
+}
+
+.Search{
+  float: right;
+  margin-top: 15px;
+}
+
+.Black input[type=text]{
+}
+
+.Salmon{
+	background-color: #FB998E;
+	background-image: url(diamond.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+.SalmonText{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.Black{
+	background-color: #000000;
+	width: 100%;
+	height: 50px;
+	float: left;
+
+	/*position: fixed; */
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: black;
+  color: #FB998E;
+}
+
+.content {
+  padding: 16px;
+}
+
+body{
+	margin: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.BigBox{
+	clear: left;
+  background-image: url(images/IMG-1011.jpg);
+  background-repeat: no-repeat;
+	width: 100%;
+	height: 180px;
+	float: left;
+	position: relative;
+	top: 100px;
+	z-index: -1; 
+	/*margin-top: 200px; */
+}
+
+.BigBoxText{
+	color: #FB998E;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 25px
+}
+
+.Gray{
+	
+	width: 250px;
+	height: 275px;
+	float: left;
+	margin-top: 175px;
+	margin-left: 70px;
+	margin-bottom: 70px;
+}
+
+.Jackets{
+	margin-top: 25px;
+	margin-left: 50px;
+	float: left;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.button {
+  background-color: #FB998E;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.button:hover {opacity: 0.5}
+
+.SalmonSmall{
+	background-color: #FB998E;
+	width: 100%;
+	height: 5px;
+	float: left;
+	margin-top: 250px;
+}
+
+.BiggerBox{
+	background-color: #191919;
+	width: 100%;
+	height: 380px;
+	float: left;
+}
+
+.SalmonFooter{
+	background-color: #FB998E;
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+form input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 400px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid pink;
+  background-color: #191919;
+}
+
+.InputText{
+	color: white;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.InputMini{
+	background-color: #191919;
+	width: 1000px;
+	height: 50px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.InputMiniText{
+	color: white;
+	font-size: 15px;
+	margin-right: 150px;
+	text-align: center;
+}
+
+.InputMiniText:hover{
+	color: #FB998E;
+}
+
+.button1 {
+  background-color: #FB998E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1:hover{opacity: 1}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.CopyrightText{
+	text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #191919;
+  color: white;
+  margin-left: 350px;
+}
+
+.fa-twitter{
+	background: #191919;
+	color: white;
+	margin-left: 40px;
+}
+
+.fa-youtube {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-instagram {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-pinterest {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.fa-snapchat-ghost {
+  background: #191919;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 40px;
+}
+
+.fa-google {
+  background: #191919;
+  color: white;
+  margin-left: 40px;
+}
+
+.open-button {
+  background-color: #FB998E;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+ padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
